@@ -2,12 +2,12 @@
 //  Hotel_ListingsUITestsLaunchTests.swift
 //  Hotel_ListingsUITests
 //
-//  Created by Young Khaliq on 12/25/23.
+//  Created by Tyrone Collins on 12/25/23.
 //
 
 import XCTest
 
-final class Hotel_ListingsUITestsLaunchTests: XCTestCase {
+final class Home_ListingsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

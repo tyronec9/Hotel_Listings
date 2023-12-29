@@ -2,7 +2,7 @@
 //  HomeListingView.swift
 //  Home_Listings
 //
-//  Created by Young Khaliq on 12/26/23.
+//  Created by Tyrone Collins on 12/26/23.
 //
 
 import Foundation

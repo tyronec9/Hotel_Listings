@@ -2,13 +2,13 @@
 //  Hotel_ListingsTests.swift
 //  Hotel_ListingsTests
 //
-//  Created by Young Khaliq on 12/25/23.
+//  Created by Tyrone Collins on 12/25/23.
 //
 
 import XCTest
-@testable import Hotel_Listings
+@testable import Home_Listings
 
-final class Hotel_ListingsTests: XCTestCase {
+final class Home_ListingsTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
