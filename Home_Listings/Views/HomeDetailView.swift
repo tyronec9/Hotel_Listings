@@ -15,7 +15,7 @@ struct HomeDetailView: View {
             GeometryReader { proxy in
                 ScrollView(.vertical) {
                     //Picture
-                    AsyncImage(url: URL(string: model.xl_picture_url ))
+                    AsyncImage(url: URL(string: model.xl_picture_url ?? "nil"))
                         .frame(width:proxy.frame(in: .global).width, height: proxy.frame(in: .global).width)
                         .aspectRatio(contentMode: .fit)
                         .clipped()

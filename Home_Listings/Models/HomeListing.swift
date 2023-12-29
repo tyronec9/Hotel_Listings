@@ -17,9 +17,9 @@ struct HomeListing: Codable, Hashable, Identifiable {
     let house_rules: String?
     let thumbnail_url: String?
     let medium_url: String?
-    let xl_picture_url: String
-    let neighbourhood: String
-    let amenities: [String]
+    let xl_picture_url: String?
+    let neighbourhood: String?
+    let amenities: [String]?
     let price: Int?
     
     // Host Details

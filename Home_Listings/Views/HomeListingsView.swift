@@ -13,22 +13,17 @@ struct HomeListingsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                if viewModel.listings.isEmpty{
-                    ProgressView()
-                        .progressViewStyle(CircularProgressViewStyle())
-                } else {
                     List(viewModel.listings) { listing in
                         NavigationLink(destination: HomeDetailView(model: listing), label:
                                         { HomeListingCardView(model: listing)
                         })
-                        .navigationTitle("Home Listings")
                     }
                     .onAppear {
                         viewModel.fetchListings()
                     }
                 }
             }
+        .navigationTitle("Home Listings")
         }
     }
-    
-}
+
